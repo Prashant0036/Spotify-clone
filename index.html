@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scrollBar.css">
+    
+
+</head>
+
+<body>
+
+   <!-- left part start  -->
+     
+   <div class="left" >
+
+    <!-- logo section  -->
+    <div class="logoSection">
+        <img id="logo" src="SVGs/logo.svg" >
+        <div class="homeBtnSection">
+            <img src="SVGs/home.svg" width="16px" height="16px">
+            <h3>Home</h3>
+        </div>
+        <div class="searchBtnSection">
+            <img src="SVGs/search.svg" width="16px" height="16px">
+            <h3>Search</h3>
+
+        </div>
+    </div>
+
+    <!-- library Section -->
+    <div class="librarySection">
+      <div class="libraryLogoBox">
+    <img src="SVGs/playlist.svg" width="32px" height="32px">
+    <h2>Your Library</h2>
+      </div>
+      <div class="songsBox">
+        
+        <!-- <div class="songBox">
+            <img src="SVGs/music.svg" >
+            <div class="songInfo">
+            <p class="songName">O Maahi.mp3</p>
+            <p class="singer">Prashant</p>
+        </div>
+        <p>Play Now</p>
+        <img src="SVGs/play.svg">
+        </div> -->
+      </div>
+    </div>
+    <!-- link box -->
+    <div class="linksBox">
+      <a href="#">Legal</a>
+      <a href="#">Safety & Privacy</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Cookies</a>
+      <a href="#">About Ads</a>
+      <a href="#">Accessibility</a>
+
+    </div>
+   
+   </div>
+   <!-- left part end  -->
+    <!-- right part start  -->
+   <div class="right">
+    <div class="navSection">
+      <div class="navLeft">
+ <img class="hamburger" src="SVGs/hamburger.svg">
+        <h1> &#9204 </h1>
+        <h1> &#9205 </h1>
+      </div>
+      <div class="navRight">
+      <a id="signUpBtn">Sign up</a>
+      <a id="logInBtn">Log in</a>
+    </div>
+    </div>
+
+    <!-- playlist section  -->
+    <div class="playlistSection">
+
+      <h1>Spotify Playlist</h1>
+      <div class="playlistCards">
+        
+
+          <div class="playlistCard">
+            <img src="Images/FavC2.jpg">
+            <h2 class="playlistName" id="favourites">My Playlist</h2>
+            <p class="playlistTagLine" >All fav at one place</p>
+            <div class="greenCircle">
+              <img src="SVGs/playCopy.svg" style="height: 18px; width: 18px;">
+            </div>
+          </div>
+          <div class="playlistCard">
+            <img src="Images/cover 2.jpg">
+            <h2 class="playlistName" id="sleepSongs">Sleep Songs</h2>
+            <p class="playlistTagLine">Keep calm and listen</p>
+            <div class="greenCircle">
+              <img src="SVGs/playCopy.svg" style="height: 18px; width: 18px; ">
+            </div>
+
+          </div>
+          <div class="playlistCard">
+            <img src="Images/Playlist cover 1.jpg">
+            <h2 class="playlistName" id="happyHits">Happy Hits</h2>
+            <p class="playlistTagLine">Change your mood</p>
+            <div class="greenCircle">
+              <img src="SVGs/playCopy.svg" style="height: 18px; width: 18px;">
+            </div>
+          </div>
+          <div class="playlistCard">
+            <img src="Images/DevCover.jpg">
+            <h2 class="playlistName" id="devotional">Devotionals</h2>
+            <p class="playlistTagLine">Feel the Positivity</p>
+            <div class="greenCircle">
+              <img src="SVGs/playCopy.svg" style="height: 18px; width: 18px;">
+            </div>
+          </div>
+          
+      
+        
+      </div>
+    </div>
+    <div class="playbar">
+      <div class="upper">
+      <div class="songNameSeekBar">
+       <p>  </p>
+      </div>
+      <div class="songControls">
+        <img id="previousBtn" src="SVGs/prevsong.svg" style="width: 35px; height: 35px;">
+        <img id="playBtn" src="SVGs/play.svg" style="width: 35px; height: 35px;">
+        <img id="nextBtn" src="SVGs/nextsong.svg" style="width: 35px; height: 35px;">
+      </div>
+      <div class="songTimer">
+        <p>00:00 / 00:00</p>
+      </div>
+      <div class="songVolume">
+        <img src="SVGs/volume.svg">
+      
+          <input class="volumeSeekBar" type="range" id="volume" min="0" max="100" value="">
+       
+      </div>
+    </div>
+    <div class="seekBar">
+<div class="seekCircle"></div>
+    </div>
+  </div>
+   </div>
+    <!-- right part end  -->
+
+    <script src="script.js"></script>
+</body>
+</html>

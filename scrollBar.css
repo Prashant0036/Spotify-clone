@@ -1,0 +1,28 @@
+/* Styling the scrollbar */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    height: 8px; /* Height of the scrollbar for horizontal scrolling */
+}
+
+/* The track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+    background: #2b2b2b; /* Darker background to blend with the theme */
+    border-radius: 10px; /* Smooth round edges for the scrollbar track */
+}
+
+/* The draggable part of the scrollbar */
+::-webkit-scrollbar-thumb {
+    background-color: #555555; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded thumb */
+    border: 2px solid #2b2b2b; /* Creates a small padding effect around the thumb */
+}
+
+/* Hover effect on the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #1db954; /* Change to Spotify's green on hover */
+}
+
+/* Active (when dragging) effect on the scrollbar thumb */
+::-webkit-scrollbar-thumb:active {
+    background-color: #1ed760; /* Slightly lighter green when dragging */
+}
